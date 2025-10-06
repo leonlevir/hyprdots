@@ -11,7 +11,7 @@
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
 <img width="1600" height="900" alt="2025-10-05-223732_hyprshot" src="https://github.com/user-attachments/assets/3f901504-5151-4dff-9049-1ecf5920f162" />
 
-## NVIM (MONOKAI PRO) :page_facing_up: / ZSH SHELL 'FISHY' (MODIFIED) 🐟:
+## NVIM (MONOKAI PRO) :page_facing_up: / ZSH SHELL 'FISHY' 🐟
 <img width="1600" height="900" alt="2025-10-06-003532_hyprshot" src="https://github.com/user-attachments/assets/ac4769c0-ec42-4370-a074-bf0eb5e6298f" />
 
 ## DEFAULT TILING  :triangular_ruler: 'DWINDLE' 

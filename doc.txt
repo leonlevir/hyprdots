@@ -1,0 +1,41 @@
+INPUT TO BR
+KEYBINDS
+REMOVE HINT
+
+install zsh
+sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
+
+
+install hypridle hyprlock hyprpaper nwg-look ngw-displays hyprshot pavucontrol
+# waybar
+# tumbler ffmpegthumbnailer libopenraw poppler-glib gst-libav evince
+
+
+pacman.conf --- colors etc
+
+
+INSTALL FILEMANAGER -- NAUT ---
+INSTALL rofi-wayland ---- rofi -show drun
+
+install flatpak
+flatpak install brave
+
+
+install polkit-gnome
+install gnome-keyring
+add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+yay -S flat-remix-gtk
+yay -S waypaper
+
+pacman ttf-jetbrains-mono-nerd
+
+obsidian icons
+
+scriptinstall

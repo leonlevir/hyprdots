@@ -14,7 +14,7 @@ install hypridle hyprlock hyprpaper nwg-look ngw-displays hyprshot pavucontrol
 pacman.conf --- colors etc
 
 
-INSTALL FILEMANAGER -- NAUT ---
+INSTALL FILEMANAGER -- thunar---
 INSTALL rofi-wayland ---- rofi -show drun
 
 install flatpak

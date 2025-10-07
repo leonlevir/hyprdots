@@ -1,5 +1,0 @@
-@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
-
-configuration {
-font: "Adwaita-Mono-Bold";
-}

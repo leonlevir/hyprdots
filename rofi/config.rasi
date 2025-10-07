@@ -1,0 +1,9 @@
+@theme "/usr/share/rofi/themes/fullscreen-preview.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+configuration {               
+font: "Adwaita-Mono-Bold";
+}

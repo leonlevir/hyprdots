@@ -1,15 +1,13 @@
-call plug#begin()                                                                       
-Plug 'tpope/vim-sensible'                                                               
-Plug 'phanviet/vim-monokai-pro'                                                         
-Plug 'sheerun/vim-polyglot'                                                             
-Plug 'itchyny/lightline.vim'                                                            
-Plug 'christoomey/vim-system-copy'                                                      
-call plug#end()                                                                         
-                                                                                        
-set noshowmode                                                                          
-set termguicolors                                                                       
-colorscheme monokai_pro                                                                 
-                                                                                        
-let g:lightline = {                                                                     
-      \ 'colorscheme': 'monokai_pro',                                                   
-      \ }                                
+call plug#begin()
+Plug 'christoomey/vim-system-copy'
+Plug 'tpope/vim-sensible'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'loctvl842/monokai-pro.nvim'
+call plug#end()
+
+lua << END
+require('lualine').setup()
+END
+
+colorscheme monokai-pro

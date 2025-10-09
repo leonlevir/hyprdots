@@ -12,7 +12,7 @@
 <img width="1600" height="900" alt="2025-10-07-211305_hyprshot" src="https://github.com/user-attachments/assets/7e68bb76-11e6-44fe-9efc-030c223749be" />
 
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
-<img width="1600" height="900" alt="2025-10-05-223732_hyprshot" src="https://github.com/user-attachments/assets/3f901504-5151-4dff-9049-1ecf5920f162" />
+<img width="1600" height="900" alt="2025-10-09-153957_hyprshot" src="https://github.com/user-attachments/assets/1b1bde93-64b6-4215-b2d2-1b63ede7a40f" />
 
 ## NVIM (MONOKAI PRO) + PLUGINS
 <img width="1600" height="900" alt="2025-10-07-221350_hyprshot" src="https://github.com/user-attachments/assets/542745ee-5f71-4d38-a562-74b1ed3f5dd3" />

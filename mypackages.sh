@@ -24,7 +24,7 @@ sudo pacman -S --noconfirm bridge-utils git fwupd zerotier-one
 sudo pacman -S --noconfirm wine qemu-desktop libvirt virt-manager filezilla docker
 
 # Gaming
-sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode
+sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode snes9x-gtk 
 
 # Ferramentas Gráficas e Multimídia
 sudo pacman -S --noconfirm obs-studio qbittorrent kdenlive gimp drawing mangohud mpv mousepad loupe

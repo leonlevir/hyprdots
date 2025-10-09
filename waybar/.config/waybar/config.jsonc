@@ -34,7 +34,7 @@
         "on-click-window": "${SCRIPTS}/focus-window.sh {address} {button}"
     },	
       "custom/cava": {
-	"exec": "/home/leo/.config/waybar/cava_bar.sh",
+	"exec": "/home/leo/hyprdots/waybar/cava_bar.sh",
 	"format": "{}"
 },
     "keyboard-state": {

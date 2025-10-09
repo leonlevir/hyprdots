@@ -1,4 +1,31 @@
-sudo pacman -S hypridle hyprlock hyprpaper nwg-look ngw-displays hyprshot pavucontrol waybar tumbler ffmpegthumbnailer libopenraw poppler-glib gst-libav evince thunar rofi-wayland polkit-gnome gnome-keyring cliphist network-manager-applet 
+#auth
+polkit-gnome gnome-keyring
+
+#Envs
+nwg-look
+ngw-displays
+pavucontrol
+waybar
+rofi-wayland
+network-manager-applet
+cliphist
+
+#hypr ecosystem
+hypridle
+hyprlock
+hyprpaper
+hyprshot
+
+#thunar
+thunar
+tumbler
+ffmpegthumbnailer
+libopenraw 
+poppler-glib 
+gst-libav 
+evince
+thunar-archive-plugin
+thunar-volman
 
 sudo pacman -S -needed git base-devel
 git clone https://aur.archlinux.org/yay.git

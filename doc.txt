@@ -6,18 +6,23 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
 *.zshrc
 install zsh (better than bash?)
 $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)" 
+
 -------------------------------------------------
 * /etc/pacman.conf --- colors tweak and multiple downloads
 ----------------------------------------------------------
+
 *thunar
   /usr/bin/kitty %f  (custom action)
-  file-roller --extract-here %f
+     file-roller --extract-here %f
+       enable icon toolbar in GTK Settings
+_____________________________________
 
 *rofi-wayland
        rofi -show drun
+
 ----------------------
  *polkit-gnome
-add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+     add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 ---------------------------------------------------------------------------
 
 [][][][][][][][][]yay[][][][][][][][][]

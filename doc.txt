@@ -1,40 +1,43 @@
+*.config/hypr/hyprland.conf 
 change keyboard input (if needded)
 KEYBINDS (if want)
 REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
-
+-----------------------------------------
+*.zshrc
 install zsh (better than bash?)
 $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)" 
-
-*INSTALL hypridle hyprlock hyprpaper nwg-look ngw-displays hyprshot pavucontrol waybar
-
+-------------------------------------------------
 * /etc/pacman.conf --- colors tweak and multiple downloads
-
-INSTALL FILEMANAGER -- thunar--- (thunar made in GTK, Qt THINGS REQUIRE MORE TWEAKS)
-THUNAR PLUGINS: tumbler ffmpegthumbnailer libopenraw poppler-glib gst-libav evince
-
-*INSTALL rofi-wayland ---- rofi -show drun
-
-*INSTALL flatpak
-flatpak install brave
-
-*INSTALL polkit-gnome & gnome-keyring
+----------------------------------------------------------
+*rofi-wayland
+       rofi -show drun
+----------------------
+ *polkit-gnome
 add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+---------------------------------------------------------------------------
 
 
-*--------------yay----------------
+[][][][][][][][][]yay[][][][][][][][][]
 pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-
+-------------------------------------------
 *install theme and wallpaper package from yay
 yay -S flat-remix-gtk
 yay -S waypaper
 __________________________________
 
+*cliphist (clipboard manager)
+exec-once = wl-paste --type text --watch cliphist store # Stores only text data
+exec-once = wl-paste --type image --watch cliphist store # Stores only image data
+
+bind = $mainMod, C, exec, cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
+----------------------------------------------------------------------------------------------------
+
 *maybe choose font?
 pacman ttf-jetbrains-mono-nerd
-
+------------------------------
 obsidian icons
 
 scriptinstall

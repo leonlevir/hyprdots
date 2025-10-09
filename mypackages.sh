@@ -15,7 +15,7 @@ sudo pacman -Syu --noconfirm
 echo "Instalando pacotes essenciais..."
 
 # Pacotes de Terminal
-sudo pacman -S --noconfirm nano htop fastfetch curl eza screen
+sudo pacman -S --noconfirm nano htop fastfetch curl eza screen tree
 
 # Ferramentas de Rede
 sudo pacman -S --noconfirm bridge-utils git fwupd zerotier-one
@@ -37,8 +37,6 @@ sudo pacman -S --noconfirm zip unzip file-roller 7zip ark
 
 # Instalando o Flatpak via Pacman
 sudo pacman -S --noconfirm flatpak
-sudo flatpak install -y flathub net.pcsx2.PCSX2
-sudo flatpak install -y brave
 
 # Habilitando e Iniciando Serviços com systemctl
 sudo systemctl enable bluetooth.service --now

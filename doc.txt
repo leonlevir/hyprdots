@@ -9,13 +9,16 @@ $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
 -------------------------------------------------
 * /etc/pacman.conf --- colors tweak and multiple downloads
 ----------------------------------------------------------
+*thunar
+  /usr/bin/kitty %f  (custom action)
+  file-roller --extract-here %f
+
 *rofi-wayland
        rofi -show drun
 ----------------------
  *polkit-gnome
 add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 ---------------------------------------------------------------------------
-
 
 [][][][][][][][][]yay[][][][][][][][][]
 pacman -S --needed git base-devel

@@ -47,7 +47,7 @@
 },
 
       "custom/docker": {
-        "exec": "/home/leo/docker.sh",
+        "exec": "/home/leo/hyprdots/waybar/containercheck.sh",
         "interval": 60,
         "return-type": "json",
         "tooltip": false

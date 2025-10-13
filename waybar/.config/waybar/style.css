@@ -325,9 +325,10 @@ tray {
 }
 
 #custom-docker {
-  font-family: "Font Awesome 6 Free", sans-serif;
-  font-size: 13px; /* necessário para ícones sólidos */
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+  font-size: 14px;
   color: #FFA500; /* amarelo */
+  padding: 0 10px;
 }
 
 #custom-docker_icon {

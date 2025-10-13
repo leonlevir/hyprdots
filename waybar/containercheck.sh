@@ -2,11 +2,14 @@
 
 CONTAINER="mad_serv"
 
-if docker ps --format '{{.Names}}' | grep -q "^${CONTAINER}$"; then
-    echo '{"text":"  : mad_serv","class":"running"}'
+if docker ps --format "{{.Names}}" | grep -q "$CONTAINER_NAME"; then
+  echo '{"text": "  :mad_serv", "alt": "running"}'
 else
-    echo '{"text":""}'
+  echo '{"text": "", "alt": "stopped"}'
 fi
+
+
+
 
 
 

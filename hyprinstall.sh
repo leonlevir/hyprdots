@@ -27,6 +27,10 @@ evince
 thunar-archive-plugin
 thunar-volman
 
+#fonts
+ttf-font-awesome
+ttf-jetbrains-mono-nerd
+
 sudo pacman -S -needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay

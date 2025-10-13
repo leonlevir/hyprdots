@@ -9,10 +9,10 @@
 <img width="1600" height="900" alt="2025-10-05-223707_hyprshot" src="https://github.com/user-attachments/assets/983496be-9864-4688-815a-ccc099a95a03" /> 
 
 ### ROFI LAUCHER :arrow_forward: SPOTLIGHT-DARK 
-<img width="1600" height="900" alt="2025-10-07-211305_hyprshot" src="https://github.com/user-attachments/assets/7e68bb76-11e6-44fe-9efc-030c223749be" />
+<img width="1600" height="900" alt="2025-10-13-084521_hyprshot" src="https://github.com/user-attachments/assets/7ca6a15d-db94-4ab1-ac9b-790dcc0f0b13" />
 
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
-<img width="1600" height="900" alt="2025-10-09-153957_hyprshot" src="https://github.com/user-attachments/assets/1b1bde93-64b6-4215-b2d2-1b63ede7a40f" />
+<img width="1600" height="900" alt="2025-10-13-084505_hyprshot" src="https://github.com/user-attachments/assets/b39f3559-d621-4665-b6e5-97af2feafa59" />
 
 ## NVIM (MONOKAI PRO) + PLUGINS
 <img width="1600" height="900" alt="2025-10-07-221350_hyprshot" src="https://github.com/user-attachments/assets/542745ee-5f71-4d38-a562-74b1ed3f5dd3" />

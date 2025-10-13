@@ -15,11 +15,12 @@
     "modules-center": [
         "pulseaudio",
         "custom/cava",
-
+        "custom/docker",
     ],
     
       "modules-right": [
-        "tray",
+        "custom/docker_icon",
+	"tray",
         "clock",
     ],
     // Modules configuration
@@ -37,6 +38,23 @@
 	"exec": "/home/leo/hyprdots/waybar/cava_bar.sh",
 	"format": "{}"
 },
+
+"custom/docker_icon": {
+  "exec": "/home/leo/hyprdots/waybar/dockservice.sh",
+  "interval": 60,
+  "return-type": "json",
+  "tooltip": false
+},
+
+      "custom/docker": {
+        "exec": "/home/leo/docker.sh",
+        "interval": 60,
+        "return-type": "json",
+        "tooltip": false
+}
+
+    },
+
     "keyboard-state": {
         "numlock": true,
         "capslock": true,

@@ -323,3 +323,16 @@ tray {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#custom-docker {
+  font-family: "Font Awesome 6 Free", sans-serif;
+  font-size: 13px; /* necessário para ícones sólidos */
+  color: #FFA500; /* amarelo */
+}
+
+#custom-docker_icon {
+  font-family: "Font Awesome 6 Brands", sans-serif;
+  font-size: 20px;
+  color: #0db7ed;
+  padding: 0 8px;
+}

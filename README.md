@@ -1,3 +1,6 @@
+### DOCKER INDICATORS
+<img width="250" height="29" alt="2025-10-14-224420_hyprshot" src="https://github.com/user-attachments/assets/50a559c0-9a92-4f34-8b23-ded9667384e9" />
+
 ### WAYBAR + CAVA_WAYBAR BY JaKooLit
 ![2025-10-0800-33-31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9b4d60ae-e419-4f22-8f3b-b25812cf3487)
 

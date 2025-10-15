@@ -1,6 +1,8 @@
 ### WAYBAR + CAVA_WAYBAR BY JaKooLit
 ![2025-10-0800-33-31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9b4d60ae-e419-4f22-8f3b-b25812cf3487)
 
+### WALLUST BORDERS
+![untitledd-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c7a43172-3c57-47ff-b5fd-37f7bb03ed12)
 
 ### HYPRPAPER/WAYPAPER :house:
 <img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />

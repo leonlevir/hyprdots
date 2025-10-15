@@ -27,6 +27,9 @@ evince
 thunar-archive-plugin
 thunar-volman
 
+#tools
+imagemagick
+
 #fonts
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
@@ -36,11 +39,12 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S flat-remix-gtk
-yay -S waypaper
-yay -S brave-bin
-yay -S pcsx2-git
-
+>>>>YAY<<<<<
+flat-remix-gtk
+waypaper
+brave-bin
+pcsx2-git
+wallust-git
 
 
 

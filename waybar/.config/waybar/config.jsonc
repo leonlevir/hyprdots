@@ -15,11 +15,11 @@
     "modules-center": [
         "pulseaudio",
         "custom/cava",
-        "custom/docker",
     ],
     
       "modules-right": [
-        "custom/docker_icon",
+        "custom/docker",
+	"custom/docker_icon",
 	"tray",
         "clock",
     ],

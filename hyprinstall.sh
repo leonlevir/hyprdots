@@ -9,6 +9,7 @@ waybar
 rofi-wayland
 network-manager-applet
 cliphist
+cava
 
 #hypr ecosystem
 hypridle

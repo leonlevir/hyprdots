@@ -2,7 +2,9 @@
 change keyboard input (if needded)
 KEYBINDS (if want)
 REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
+install git
 -----------------------------------------
+
 *.zshrc
 install zsh (better than bash?)
 $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)" 

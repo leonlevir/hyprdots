@@ -20,7 +20,7 @@
 <img width="1600" height="900" alt="2025-10-13-084505_hyprshot" src="https://github.com/user-attachments/assets/b39f3559-d621-4665-b6e5-97af2feafa59" />
 
 ## NVIM (MONOKAI PRO) + PLUGINS
-<img width="1600" height="900" alt="2025-10-07-221350_hyprshot" src="https://github.com/user-attachments/assets/542745ee-5f71-4d38-a562-74b1ed3f5dd3" />
+<img width="1600" height="900" alt="2025-10-17-191321_hyprshot" src="https://github.com/user-attachments/assets/977a3a1a-2f71-4d0a-9076-e2fdd2a7deee" />
 
 ## ZSH "Arrow" 🏹
 <img width="967" height="173" alt="2025-10-07-221521_hyprshot" src="https://github.com/user-attachments/assets/e207a07d-868c-4d5a-960d-e182d1ee1609" />

@@ -7,9 +7,3 @@ if docker ps --format "{{.Names}}" | grep -q "$CONTAINER_NAME"; then
 else
   echo '{"text": "", "alt": "stopped"}'
 fi
-
-
-
-
-
-

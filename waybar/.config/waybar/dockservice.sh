@@ -5,4 +5,3 @@ if systemctl is-active --quiet docker; then
 else
     echo '{"text":""}'
 fi
-

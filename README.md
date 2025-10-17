@@ -19,7 +19,7 @@
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
 <img width="1600" height="900" alt="2025-10-13-084505_hyprshot" src="https://github.com/user-attachments/assets/b39f3559-d621-4665-b6e5-97af2feafa59" />
 
-## NVIM (MONOKAI PRO) + PLUGINS
+## NVIM (OneDark) + PLUGINS
 <img width="1600" height="900" alt="2025-10-17-191321_hyprshot" src="https://github.com/user-attachments/assets/977a3a1a-2f71-4d0a-9076-e2fdd2a7deee" />
 
 ## ZSH "Arrow" 🏹

@@ -35,19 +35,19 @@
         "on-click-window": "${SCRIPTS}/focus-window.sh {address} {button}"
     },	
       "custom/cava": {
-	"exec": "/home/leo/hyprdots/waybar/cava_bar.sh",
+	"exec": "/home/leo/hyprdots/waybar/.config/waybar/cava_bar.sh",
 	"format": "{}"
 },
 
 "custom/docker_icon": {
-  "exec": "/home/leo/hyprdots/waybar/dockservice.sh",
+  "exec": "/home/leo/hyprdots/waybar/.config/waybar/dockservice.sh",
   "interval": 60,
   "return-type": "json",
   "tooltip": false
 },
 
       "custom/docker": {
-        "exec": "/home/leo/hyprdots/waybar/containercheck.sh",
+        "exec": "/home/leo/hyprdots/waybar/.config/waybar/containercheck.sh",
         "interval": 60,
         "return-type": "json",
         "tooltip": false

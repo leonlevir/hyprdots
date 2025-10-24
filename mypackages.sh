@@ -15,7 +15,7 @@ sudo pacman -Syu --noconfirm
 echo "Instalando pacotes essenciais..."
 
 # Pacotes de Terminal
-sudo pacman -S --noconfirm nano htop fastfetch curl eza screen tree
+sudo pacman -S --noconfirm nano htop fastfetch curl eza tmux tree
 
 # Ferramentas de Rede
 sudo pacman -S --noconfirm bridge-utils git fwupd zerotier-one

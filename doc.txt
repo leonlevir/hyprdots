@@ -2,11 +2,12 @@
 change keyboard input (if needded)
 KEYBINDS (if want)
 REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
-install git
+$sudo pacman -S git curl
 -----------------------------------------
 
 *.zshrc
 install zsh (better than bash?)
+$ sudo pacman -S zsh
 $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)" 
 
 -------------------------------------------------
@@ -15,15 +16,17 @@ $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
 
 *thunar
   /usr/bin/kitty %f  (custom action)
-     file-roller --extract-here %f
        enable icon toolbar in GTK Settings
 _____________________________________
 
-*rofi-wayland
+pacman udieskie -- autostart
+sudo pacman -S gvfs gvfs-mtp gvfs-gphoto2 gvfs-afc gvfs-smb
+
+*rofi-wayland 
        rofi -show drun
 
 ----------------------
- *polkit-gnome
+ *polkit-gnome 
      add to autostart: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 ---------------------------------------------------------------------------
 
@@ -48,6 +51,6 @@ bind = $mainMod, C, exec, cliphist list | rofi -dmenu -display-columns 2 | cliph
 *maybe choose font?
 pacman ttf-jetbrains-mono-nerd
 ------------------------------
-obsidian icons
+kora icons
 
 scriptinstall

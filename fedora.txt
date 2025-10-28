@@ -1,13 +1,7 @@
-discord
-snes9x
-zerotier
-exa
-qemu
-
-sudo dnf install nano htop fastfetch curl tmux tree bridge-utils git fwupd
-sudo dnf install wine libvirt filezilla docker
-sudo dnf install steam
-sudo dnf install obs-studio qbittorrent kdenlive gimp drawing mangohud 
+nano htop fastfetch curl tmux tree bridge-utils git fwupd
+wine libvirt filezilla docker
+steam
+sobs-studio qbittorrent kdenlive gimp drawing mangohud 
 
 
 

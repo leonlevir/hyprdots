@@ -11,7 +11,8 @@
 <img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />
 
 ### KITTY TERMINAL :computer:
-<img width="1600" height="900" alt="2025-10-05-223707_hyprshot" src="https://github.com/user-attachments/assets/983496be-9864-4688-815a-ccc099a95a03" /> 
+<img width="1600" height="900" alt="2025-10-29-051051_hyprshot" src="https://github.com/user-attachments/assets/0e1d22f1-60bd-4a04-b46c-240527b56b8c" />
+
 
 ### ROFI LAUCHER :arrow_forward: SPOTLIGHT-DARK 
 <img width="1600" height="900" alt="2025-10-13-084521_hyprshot" src="https://github.com/user-attachments/assets/7ca6a15d-db94-4ab1-ac9b-790dcc0f0b13" />

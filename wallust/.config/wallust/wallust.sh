@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Diretório dos wallpapers
-WALLPAPER_DIR="/home/leo/Documents/wallpapers"
+WALLPAPER_DIR="/home/leo/Documentos/wallpapers"
 
 # Escolhe um wallpaper aleatório
 WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)

@@ -16,6 +16,7 @@ hypridle
 hyprlock
 hyprpaper
 hyprshot
+dunst
 
 #thunar
 thunar

@@ -5,7 +5,8 @@
 ![2025-10-0800-33-31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9b4d60ae-e419-4f22-8f3b-b25812cf3487)
 
 ### WALLUST BORDERS
-![untitledd-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c7a43172-3c57-47ff-b5fd-37f7bb03ed12)
+![2025-11-1321-51-24-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/01beab43-fccd-4518-bebb-d4b74ff9fcb2)
+
 
 ### HYPRPAPER/WAYPAPER :house:
 <img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />
@@ -26,4 +27,5 @@
 <img width="1071" height="239" alt="2025-11-13-093736_hyprshot" src="https://github.com/user-attachments/assets/921c9aa9-87ff-4b22-ac4d-1c3b2f6202f4" />
 
 ## DEFAULT TILING  :triangular_ruler: 'DWINDLE' 
-<img width="1600" height="900" alt="2025-10-05-224323_hyprshot" src="https://github.com/user-attachments/assets/3d138879-63e9-418d-ad53-74bae0a43c15" />
+<img width="1600" height="900" alt="2025-11-13-214440_hyprshot" src="https://github.com/user-attachments/assets/0cd3617e-8156-48f1-8a24-c5aff7dfb278" />
+

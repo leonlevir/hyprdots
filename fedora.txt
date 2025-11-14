@@ -1,7 +1,0 @@
-nano htop fastfetch curl tmux tree bridge-utils git fwupd
-wine libvirt filezilla docker
-steam
-sobs-studio qbittorrent kdenlive gimp drawing mangohud 
-
-
-

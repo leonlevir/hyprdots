@@ -10,6 +10,9 @@ rofi-wayland
 network-manager-applet
 cliphist
 cava
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+xdg-desktop-portal-hyprland
 
 #hypr ecosystem
 hypridle

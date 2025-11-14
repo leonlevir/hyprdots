@@ -2,7 +2,7 @@
 polkit-gnome gnome-keyring
 
 #Envs
-sudo pacman -S nwg-look ngw-displays pavucontrol waybar rofi-wayland network-manager-applet cliphist cava
+sudo pacman -S nwg-look ngw-displays pavucontrol waybar rofi-wayland network-manager-applet cliphist cava xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland
 
 #hypr ecosystem
 sudo pacman -S hypridle hyprlock hyprpaper hyprshot dunst

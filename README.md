@@ -14,7 +14,7 @@
 <img width="1600" height="900" alt="2025-11-13-093637_hyprshot" src="https://github.com/user-attachments/assets/8f4ee389-bf8a-424d-9a95-b21fac5294bb" />
 
 ### ROFI LAUCHER :arrow_forward: SPOTLIGHT-DARK 
-<img width="1600" height="900" alt="2025-10-13-084521_hyprshot" src="https://github.com/user-attachments/assets/7ca6a15d-db94-4ab1-ac9b-790dcc0f0b13" />
+<img width="1600" height="900" alt="2025-11-13-213534_hyprshot" src="https://github.com/user-attachments/assets/1c787a2f-0cdf-4d31-bfbe-e3a8a081b3f2" />
 
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
 <img width="1600" height="900" alt="2025-11-13-093823_hyprshot" src="https://github.com/user-attachments/assets/37bf9a5d-50cc-43d4-a8f4-46479f035bd3" />

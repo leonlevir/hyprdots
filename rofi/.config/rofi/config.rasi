@@ -83,4 +83,4 @@ configuration {
 font: "Adwaita-Mono-Bold";
 }
 
-@theme "/home/leo/.local/share/rofi/themes/spotlight-dark.rasi"
+@theme "/home/leo/.config/rofi/spotlight-dark.rasi"

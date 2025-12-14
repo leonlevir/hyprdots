@@ -1,7 +1,7 @@
 * = CONFIG FILE LOCATION (FROM HOME)
 $ = COPY AND RUN COMMANDS
 > = AUTOSTART LINE (NOT NEEDED IF YOU WILL COPY HYPRLAND.CONF)
-H = HOTKEY EXAMPLE (NOT NEEDED IF YOU WILL COPY HYPRLAND.CONF)
+! = HOTKEY EXAMPLE (NOT NEEDED IF YOU WILL COPY HYPRLAND.CONF)
 
 
 ---- HYPRLAND FIRST TWEAKS (NOT NEEDED IF YWILL COPY HYPRLAND.CONF) *.config/hypr/hyprland.conf 
@@ -16,9 +16,14 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
 --------------------------------------------------------------------------------
 
 
+---- POLKIT
+      $ sudo pacman -S gnome-polkit gnome-keyring
+        > /usr/lib/polkit-gnome/polkit-gnome-authentication-agent
+
+
 ---- APP LAUNCHER (NEEDED IF YOU YWILL COPY HYPRLAND.CONF)      
       $ sudo pacman -S rofi-wayland
-      $ rofi -show drun
+         ! rofi -show drun
 
 
 ---- USER DIRECTORIES?
@@ -33,7 +38,7 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
 
 
 ---- FILE EXPLORER
-      $ sudo pacman -S thunar
+      $ sudo pacman -S thunar tumbler ffmpegthumbnailer libopenraw poppler-glib gst-libav evince thunar-archive-plugin thunar-volman
         /usr/bin/kitty %f  (thunar custom action to open in terminal works)
 
 
@@ -41,16 +46,12 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
       $ sudo pacman -S udiskie gvfs gvfs-mtp gvfs-gphoto2 gvfs-afc gvfs-smb
         > exec-once = udiskie &
 
+
 ---- CLIPBOARD
       $ sudo pacman -S cliphist
         > exec-once = wl-paste --type text --watch cliphist store # Stores only text data
         > exec-once = wl-paste --type image --watch cliphist store # Stores only image data
           ! bind = $mainMod, C, exec, cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
-
-
----- POLKIT
-      $ sudo pacman -S gnome-polkit
-        > /usr/lib/polkit-gnome/polkit-gnome-authentication-agen
 
 
 ---- YAY
@@ -60,10 +61,17 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
       $ makepkg -si
 
 
----- THEMING
-      $ yay -S flat-remix-gtk
-      $ yay -S waypaper
-
-
 ---- FONTS
-      $ sudo pacman -S ttf-jetbrains-mono-nerd
+      $ sudo pacman -S ttf-jetbrains-mono-nerd ttf-font-awesome
+
+
+---- HYPR ECOSYSTEM
+      $ sudo pacman -S hypridle hyprlock hyprpaper hyprshot dunst
+
+
+---- HYPR ENVS
+      $ sudo pacman -S nwg-look nwg-displays pavucontrol waybar network-manager-applet cava xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland
+
+
+---- BROWSER AND THEMING (IT TAKE A WHILE)
+      $ yay -S flat-remix-gtk waypaper wallust-git brave-bin

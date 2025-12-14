@@ -54,13 +54,16 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
 
 
 ---- YAY
-      $pacman -S --needed git base-devel
-      $git clone https://aur.archlinux.org/yay.git
-      $cd yay
--------------------------------------------
-*install theme and wallpaper package from yay
-yay -S flat-remix-gtk
-yay -S waypaper
+      $ sudo pacman -S --needed git base-devel
+      $ git clone https://aur.archlinux.org/yay.git
+      $ cd yay
+      $ makepkg -si
+
+
+---- THEMING
+      $ yay -S flat-remix-gtk
+      $ yay -S waypaper
+
 
 ---- FONTS
       $ sudo pacman -S ttf-jetbrains-mono-nerd

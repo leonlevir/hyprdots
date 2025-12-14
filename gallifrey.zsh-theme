@@ -1,6 +1,6 @@
 # ZSH Theme - Preview: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#gallifrey
 return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
-host_color="%(!.%{$fg[red]%}.%{$fg[cyan]%})"
+host_color="%(!.%{$fg[red]%}.%{$fg[green]%})"
 
 PROMPT="${host_color}%m%{$fg[yellow]%} %2~ \$(git_prompt_info)%{$reset_color%}%B%b "
 RPS1="${return_code}"

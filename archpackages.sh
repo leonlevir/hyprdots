@@ -38,6 +38,9 @@ sudo pacman -S --noconfirm zip unzip file-roller 7zip ark
 # Instalando o Flatpak via Pacman
 sudo pacman -S --noconfirm flatpak
 
+#
+sudo pacman -S thunderbird
+
 # Habilitando e Iniciando Serviços com systemctl
 sudo systemctl enable bluetooth.service --now
 sudo systemctl enable zerotier-one.service --now

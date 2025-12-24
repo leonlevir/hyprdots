@@ -30,7 +30,7 @@ sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode snes9x-gtk
 sudo pacman -S --noconfirm obs-studio qbittorrent kdenlive gimp drawing mangohud mpv mousepad loupe
 
 # Ferramentas de Arquivo e Sistema
-sudo pacman -S --noconfirm jre-openjdk udftools ntfs-3g gnome-disk-utility blueman bluez bluez-utils
+sudo pacman -S --noconfirm jre-openjdk udftools ntfs-3g gnome-disk-utility blueman bluez bluez-utils gnome-calculator
 
 # Ferramentas de Compactação
 sudo pacman -S --noconfirm zip unzip file-roller 7zip ark

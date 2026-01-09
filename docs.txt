@@ -1,3 +1,9 @@
+*/etc/fstab
+sudo mkdir -p /mnt/king500
+UUID=0a262941-e4c8-4c96-896c-b6cafff741e5   /mnt/king500   ext4   defaults,nofail   0   2
+
+
+
 :::::::::::::::::::::::::::::::::::::::::VIRT-MANAGER/QEMU::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

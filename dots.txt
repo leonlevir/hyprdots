@@ -74,7 +74,7 @@ REMOVE DEFAULT CONFIG WARN (CUT THE LINE)
 
 
 ---- BROWSER AND THEMING (IT TAKE A WHILE)
-      $ yay -S flat-remix-gtk waypaper wallust-git brave-bin
+      $ yay -S flat-remix-gtk wallust-git brave-bin
 
 
 

@@ -6,8 +6,8 @@ WALLPAPER_DIR="/home/leo/Documentos/wallpapers"
 # Escolhe um wallpaper aleatório
 WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" \) | shuf -n 1)
 
-# Aplica o wallpaper com Waypaper usando o backend Hyprpaper
-waypaper --wallpaper "$WALLPAPER" --backend hyprpaper
+# Aplica o wallpaper com Hyprpaper
+hyprctl hyprpaper wallpaper "HDMI-A-1,$WALLPAPER"
 
 # Aguarda carregar
 sleep 1
@@ -17,4 +17,3 @@ wallust run -s --backend fastresize -- "$WALLPAPER"
 
 # Recarrega Hyprland
 hyprctl reload
-

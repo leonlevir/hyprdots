@@ -1,6 +1,3 @@
-### DOCKER INDICATORS
-<img width="250" height="29" alt="2025-10-14-224420_hyprshot" src="https://github.com/user-attachments/assets/50a559c0-9a92-4f34-8b23-ded9667384e9" />
-
 ### WAYBAR + CAVA_WAYBAR BY JaKooLit
 ![2025-10-0800-33-31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9b4d60ae-e419-4f22-8f3b-b25812cf3487)
 
@@ -11,10 +8,10 @@
 <img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />
 
 ### KITTY TERMINAL :computer:
-<img width="1600" height="900" alt="2025-11-13-093637_hyprshot" src="https://github.com/user-attachments/assets/8f4ee389-bf8a-424d-9a95-b21fac5294bb" />
+<img width="1600" height="900" alt="2026-03-17-015450_hyprshot" src="https://github.com/user-attachments/assets/92013fc0-227c-4d01-9a8d-3e0d8d468bb3" />
 
 ### ROFI LAUCHER :arrow_forward: SPOTLIGHT-DARK 
-<img width="1600" height="900" alt="2026-02-23-204422_hyprshot" src="https://github.com/user-attachments/assets/eb53591d-4952-4fc3-a930-9a028d2e6aa5" />
+<img width="1600" height="900" alt="2026-03-17-015650_hyprshot" src="https://github.com/user-attachments/assets/c0c4d784-2ea7-48e9-aa38-4c2c4fa160da" />
 
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
 <img width="1600" height="900" alt="2026-02-23-204321_hyprshot" src="https://github.com/user-attachments/assets/72b69f46-1a2b-442d-8c58-790756f84450" />

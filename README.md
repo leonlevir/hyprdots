@@ -1,11 +1,11 @@
+### HYPRPAPER(wallpaper engine) :house:
+<img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />
+
 ### WAYBAR + CAVA_WAYBAR BY JaKooLit
 ![2025-10-0800-33-31-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9b4d60ae-e419-4f22-8f3b-b25812cf3487)
 
 ### WALLUST BORDERS
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/edc6a790-8382-451e-953c-c84c34e1103f)
-
-### HYPRPAPER(wallpaper engine) :house:
-<img width="1600" height="900" alt="2025-10-05-223455_hyprshot" src="https://github.com/user-attachments/assets/b33f0557-5ac7-4a69-b1d8-e430a6d979d8" />
 
 ### KITTY TERMINAL :computer:
 <img width="1600" height="900" alt="2026-03-17-015450_hyprshot" src="https://github.com/user-attachments/assets/92013fc0-227c-4d01-9a8d-3e0d8d468bb3" />

@@ -22,7 +22,7 @@ cat >"$config_file" <<EOF
 # Setting maximum framerate to 30  
 # You can increase the value if you wish
 framerate = 60
-bars = 10
+bars = 20
 
 [input]
 method = pulse

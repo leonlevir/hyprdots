@@ -18,10 +18,7 @@ echo "Instalando pacotes essenciais..."
 sudo pacman -S --noconfirm nano htop fastfetch curl eza tmux tree
 
 # Ferramentas de Rede
-sudo pacman -S --noconfirm bridge-utils git fwupd zerotier-one
-
-# Virtualização
-sudo pacman -S --noconfirm wine qemu-desktop libvirt virt-manager filezilla docker
+sudo pacman -S --noconfirm git fwupd zerotier-one
 
 # Gaming
 sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode snes9x-gtk 
@@ -30,7 +27,7 @@ sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode snes9x-gtk
 sudo pacman -S --noconfirm obs-studio qbittorrent kdenlive gimp drawing mangohud mpv mousepad loupe
 
 # Ferramentas de Arquivo e Sistema
-sudo pacman -S --noconfirm jre-openjdk udftools ntfs-3g gnome-disk-utility blueman bluez bluez-utils gnome-calculator mission-center
+sudo pacman -S --noconfirm jre-openjdk udftools ntfs-3g gnome-disk-utility blueman bluez bluez-utils gnome-calculator thunderbird
 
 # Ferramentas de Compactação
 sudo pacman -S --noconfirm zip unzip file-roller 7zip ark
@@ -38,13 +35,11 @@ sudo pacman -S --noconfirm zip unzip file-roller 7zip ark
 # Instalando o Flatpak via Pacman
 sudo pacman -S --noconfirm flatpak
 
-#
-sudo pacman -S thunderbird
 
 # Habilitando e Iniciando Serviços com systemctl
-sudo systemctl enable bluetooth.service --now
-sudo systemctl enable zerotier-one.service --now
-sudo systemctl enable docker --now
+#sudo systemctl enable bluetooth.service --now
+#sudo systemctl enable zerotier-one.service --now
+#sudo systemctl enable docker --now
 
 # Atualiza o sistema
 sudo pacman -Syu --noconfirm

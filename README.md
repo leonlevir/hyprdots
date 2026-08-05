@@ -4,6 +4,10 @@
 ### KITTY TERMINAL :computer:
 <img width="1600" height="900" alt="2026-08-05-013917_hyprshot" src="https://github.com/user-attachments/assets/6f8f5c47-6192-4497-9f01-6de931abc84a" />
 
+### TILING
+<img width="800" height="450" alt="untitled-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/24c9baa0-6e9c-4962-94c9-d0d6c2a43eb4" />
+
+
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
 <img width="1600" height="900" alt="2026-08-05-014449_hyprshot" src="https://github.com/user-attachments/assets/b64ed372-6fd4-4913-8513-5e5e9619819e" />
 

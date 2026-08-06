@@ -13,13 +13,13 @@
     ],
 
     "modules-center": [
-        "pulseaudio",
+        "pulseaudio",        
         "custom/cava",
+        
     ],
     
       "modules-right": [
-        "custom/docker",
-	"custom/docker_icon",
+        "custom/docker_icon",
 	"tray",
         "clock",
     ],
@@ -37,6 +37,12 @@
       "custom/cava": {
 	"exec": "/home/leo/.config/waybar/cava_bar.sh",
 	"format": "{}"
+},
+
+"pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": " Muted",
+    "on-click": "pavucontrol"
 },
 
 "custom/docker_icon": {
@@ -178,22 +184,7 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
-    },
+            },
     "custom/media": {
         "format": "{icon} {text}",
         "return-type": "json",

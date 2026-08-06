@@ -277,14 +277,14 @@ hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/leo/Documents/wall.sh"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("discord"))
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("webcord"))
 hl.bind(mainMod .. " + KP_Add", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | hyprlauncher --dmenu | cliphist decode | wl-copy"))
 ---------------------HYPRSHOT---------------------------
 hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
 hl.bind(mainMod .. " + SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m output -m active"))
 ---------------------PASS-------------------------------
-hl.bind("F10", hl.dsp.pass({window = "class:^(discord)$"}))
+hl.bind("F10", hl.dsp.pass({window = "class:^(webcord)$"}))
 
 
 

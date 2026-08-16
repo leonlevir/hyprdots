@@ -16,8 +16,7 @@
 -- Create your files separately and then require them like this:
 -- require("myColors")
 
-
-------------------
+-----------------
 ---- MONITORS ----
 ------------------
 
@@ -97,16 +96,17 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -----------------------
 
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
+local colors = dofile("/home/leo/.config/wallust/hypr.lua")
 hl.config({
     general = {
-        gaps_in  = 2,
+        gaps_in  = 1,
         gaps_out = 0,
 
         border_size = 2,
 
         col = {
-            active_border   = { colors = {"rgb(ffffff)"}, angle = 45 },
-            inactive_border = "rgba(595959aa)",
+            active_border   = "0xff" .. colors.color12:sub(2),
+            inactive_border = "0xff" .. colors.color10:sub(2),
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps
@@ -114,9 +114,7 @@ hl.config({
 
         -- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
         allow_tearing = false,
-
-        layout = "dwindle",
-    },
+},
 
     decoration = {
         rounding       = 0,
@@ -286,6 +284,7 @@ hl.bind(mainMod .. " + SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m output -m ac
 ---------------------PASS-------------------------------
 hl.bind("F10", hl.dsp.pass({window = "class:^(webcord)$"}))
 
+hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
 
 -- Move focus with mainMod + arrow keys

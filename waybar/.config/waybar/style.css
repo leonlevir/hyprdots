@@ -1,3 +1,4 @@
+@import "/home/leo/.config/wallust/waybar.css";
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font;
@@ -54,7 +55,7 @@ button {
 }
 
 #workspaces button.active {
-    background-color: #1e7d87; /* Cor do workspace ativo */	
+    background-color: @color12; /* Cor do workspace ativo */	
     border-radius: 0px;
 }
 

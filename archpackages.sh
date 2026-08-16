@@ -37,7 +37,7 @@ sudo pacman -S --noconfirm flatpak
 
 
 # Habilitando e Iniciando Serviços com systemctl
-#sudo systemctl enable bluetooth.service --now
+sudo systemctl enable bluetooth.service --now
 #sudo systemctl enable zerotier-one.service --now
 #sudo systemctl enable docker --now
 

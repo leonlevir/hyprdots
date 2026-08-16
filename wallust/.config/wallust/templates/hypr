@@ -1,0 +1,5 @@
+-- ~/.config/wallust/hypr
+return {
+    color10 = "{{color10}}",
+    color12 = "{{color12}}",
+}

@@ -1,5 +1,5 @@
 -- ~/.config/wallust/hypr
 return {
-    color10 = "#0D2432",
-    color12 = "#2C4267",
+    color10 = "#333333",
+    color12 = "#945058",
 }

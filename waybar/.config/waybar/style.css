@@ -56,7 +56,12 @@ button {
 
 #workspaces button.active {
     background-color: @color12; /* Cor do workspace ativo */	
-    border-radius: 0px;
+    border-radius: 40px;
+border-radius: 50px;       /* Mantém totalmente arredondado */
+    min-width: 24px;           /* Define uma largura mínima menor */
+    min-height: 24px;          /* Define uma altura mínima menor */
+    padding: 0px;              /* Remove o espaçamento interno excessivo */
+    margin: 3px;               /* Ajusta o espaçamento externo se precisar */
 }
 
 workspaces button:hover {

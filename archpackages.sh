@@ -15,13 +15,13 @@ sudo pacman -Syu --noconfirm
 echo "Instalando pacotes essenciais..."
 
 # Pacotes de Terminal
-sudo pacman -S --noconfirm nano htop fastfetch curl eza tmux tree
+sudo pacman -S --noconfirm nano htop fastfetch curl eza tmux tree stow
 
 # Ferramentas de Rede
 sudo pacman -S --noconfirm git fwupd zerotier-one
 
 # Gaming
-sudo pacman -S --noconfirm steam discord gamemode lib32-gamemode snes9x-gtk 
+sudo pacman -S --noconfirm steam gamemode lib32-gamemode snes9x-gtk 
 
 # Ferramentas Gráficas e Multimídia
 sudo pacman -S --noconfirm obs-studio qbittorrent kdenlive gimp drawing mangohud mpv mousepad loupe

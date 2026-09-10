@@ -270,7 +270,7 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Escape", hl.dsp.window.close())
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/leo/Documents/wall.sh"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/leo/hyprdots/wall.sh"))
 ---------------------LAUNCHERS--------------------------
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))

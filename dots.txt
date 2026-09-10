@@ -16,7 +16,7 @@ KEYBINDS (if want)
 
 
 ---- POLKIT
-      $ sudo pacman -S gnome-polkit gnome-keyring
+      $ sudo pacman -S polkit-gnome gnome-keyring
         > hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
 
@@ -54,14 +54,6 @@ KEYBINDS (if want)
           ! hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | hyprlauncher --dmenu | cliphist decode | wl-copy"))
 
 
-
----- YAY
-      $ sudo pacman -S --needed git base-devel
-      $ git clone https://aur.archlinux.org/yay.git
-      $ cd yay
-      $ makepkg -si
-
-
 ---- FONTS
       $ sudo pacman -S noto-fonts noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-font-awesome
 
@@ -74,8 +66,21 @@ KEYBINDS (if want)
       $ sudo pacman -S nwg-look nwg-displays pavucontrol waybar network-manager-applet cava xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland
 
 
----- BROWSER AND THEMING (IT TAKE A WHILE)
-      $ yay -S flat-remix-gtk brave-origin-bin
+---- THEME AND ICONS
+      *https://github.com/daniruiz/flat-remix
+      *https://github.com/daniruiz/flat-remix-gtk/tree/master
+
+
+---- YAY
+      $ sudo pacman -S --needed git base-devel
+      $ git clone https://aur.archlinux.org/yay.git
+      $ cd yay
+      $ makepkg -si
+
+
+---- FROM YAY
+      $ curl -fsS https://dl.brave.com/install.sh | FLAVOR=origin sh
+      $ yay -S wallust-git webcord
 
 
 

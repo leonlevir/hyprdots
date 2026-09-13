@@ -19,15 +19,8 @@
 -----------------
 ---- MONITORS ----
 ------------------
-
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
-hl.monitor({
-    output   = "",
-    mode     = "preferred",
-    position = "auto",
-    scale    = "auto",
-})
-
+dofile("/home/leo/.config/hypr/monitors.lua")
 
 ---------------------
 ---- MY PROGRAMS ----
@@ -36,7 +29,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal    = "kitty"
 local fileManager = "thunar"
-local menu        = "hyprlauncher"
+local menu        = "rofi -show drun"
 local browser     = "brave-origin"
 
 
@@ -270,21 +263,24 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Escape", hl.dsp.window.close())
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/leo/hyprdots/wall.sh"))
+hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/leo/hyprdots/scripts/wall.sh"))
+hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("/home/leo/hyprdots/scripts/albionwide.sh"))
+
 ---------------------LAUNCHERS--------------------------
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("webcord"))
 hl.bind(mainMod .. " + KP_Add", hl.dsp.exec_cmd("gnome-calculator"))
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | hyprlauncher --dmenu | cliphist decode | wl-copy"))
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
+
 ---------------------HYPRSHOT---------------------------
 hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
 hl.bind(mainMod .. " + SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m output -m active"))
+
 ---------------------PASS-------------------------------
 hl.bind("F10", hl.dsp.pass({window = "class:^(webcord)$"}))
 
-hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
 
 -- Move focus with mainMod + arrow keys

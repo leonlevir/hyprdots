@@ -31,7 +31,7 @@ local terminal    = "kitty"
 local fileManager = "thunar"
 local menu        = "rofi -show drun"
 local browser     = "brave-origin"
-
+local taskmanager = "btop"
 
 -------------------
 ---- AUTOSTART ----
@@ -270,6 +270,7 @@ hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("/home/leo/hyprdots/scripts/albionwid
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("btop"))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("webcord"))
 hl.bind(mainMod .. " + KP_Add", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
@@ -280,6 +281,8 @@ hl.bind(mainMod .. " + SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m output -m ac
 
 ---------------------PASS-------------------------------
 hl.bind("F10", hl.dsp.pass({window = "class:^(webcord)$"}))
+hl.bind(mainMod .. " + G", hl.dsp.pass({window = "class:^(com.obsproject.Studio)$"}))
+
 
 
 

@@ -76,6 +76,7 @@ palette = "salience"
 #   zathura  = { template = 'zathura',  target = '~/.config/zathura/zathurarc' }
 hyprland    = { template = 'hypr',    target = '~/.config/wallust/hypr.lua' }
 waybar    = { template = 'waybar',    target = '~/.config/wallust/waybar.css' }
+rofi    = { template = 'rofi',    target = '~/.config/wallust/rofi.rasi' }
 #   kitty    = { template = 'kitty',    target = '~/.config/kitty/kitty.conf' }
 #   # directory: template every file inside src/ into dst/
 #   glava    = { template = 'glava/',   target = '~/.config/glava/', max_depth = 1 }

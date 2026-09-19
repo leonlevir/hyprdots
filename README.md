@@ -2,14 +2,15 @@
 <img width="1600" height="900" alt="2026-08-05-014405_hyprshot" src="https://github.com/user-attachments/assets/c9450467-0198-488c-9a45-4e1f000f6b88" />
 
 ### KITTY TERMINAL :computer:
-<img width="1600" height="900" alt="2026-08-05-013917_hyprshot" src="https://github.com/user-attachments/assets/6f8f5c47-6192-4497-9f01-6de931abc84a" />
+<img width="1600" height="900" alt="2026-09-19-092547_hyprshot" src="https://github.com/user-attachments/assets/1c3ca435-3da0-4179-b85e-dd48d35fd462" />
 
 ### TILING
-<img width="800" height="450" alt="untitled-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/24c9baa0-6e9c-4962-94c9-d0d6c2a43eb4" />
+<img width="1600" height="900" alt="2026-09-19-093017_hyprshot" src="https://github.com/user-attachments/assets/98b2dd08-4e2c-4822-9075-72ea219ed3bb" />
 
 
 ### THUNAR EXPLORER :file_folder: (FROM XFCE)
-<img width="1600" height="900" alt="2026-08-05-014449_hyprshot" src="https://github.com/user-attachments/assets/b64ed372-6fd4-4913-8513-5e5e9619819e" />
+<img width="1600" height="900" alt="2026-09-19-092608_hyprshot" src="https://github.com/user-attachments/assets/2ab56a64-00f7-4e2e-a31b-d7e4fa0b57c2" />
+
 
 ## NVIM (OneDark) + PLUGINS
 <img width="1600" height="900" alt="2025-10-17-191321_hyprshot" src="https://github.com/user-attachments/assets/977a3a1a-2f71-4d0a-9076-e2fdd2a7deee" />

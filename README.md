@@ -1,3 +1,6 @@
+### CAVA WAYBAR BY JaKooLit
+<img width="1600" height="34" alt="untitled" src="https://github.com/user-attachments/assets/88873a5b-9d7c-46fe-96ea-1f1867fb4a7c" />
+
 ### HYPRPAPER(wallpaper engine) :house:
 <img width="1600" height="900" alt="2026-08-05-014405_hyprshot" src="https://github.com/user-attachments/assets/c9450467-0198-488c-9a45-4e1f000f6b88" />
 

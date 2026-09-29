@@ -5,7 +5,7 @@
 <img width="1600" height="900" alt="2026-08-05-014405_hyprshot" src="https://github.com/user-attachments/assets/c9450467-0198-488c-9a45-4e1f000f6b88" />
 
 ### KITTY TERMINAL :computer:
-<img width="1600" height="900" alt="2026-09-19-092547_hyprshot" src="https://github.com/user-attachments/assets/1c3ca435-3da0-4179-b85e-dd48d35fd462" />
+<img width="1600" height="900" alt="2026-09-28-230855_hyprshot" src="https://github.com/user-attachments/assets/642d698b-7278-4ab7-a13f-8df929f235b8" />
 
 ### TILING
 <img width="1600" height="900" alt="2026-09-19-093017_hyprshot" src="https://github.com/user-attachments/assets/98b2dd08-4e2c-4822-9075-72ea219ed3bb" />

@@ -67,8 +67,8 @@ KEYBINDS (if want)
 
 
 ---- THEME AND ICONS
-      *https://github.com/daniruiz/flat-remix
-      *https://github.com/daniruiz/flat-remix-gtk/tree/master
+       https://github.com/daniruiz/flat-remix
+       https://github.com/daniruiz/flat-remix-gtk
 
 
 ---- YAY

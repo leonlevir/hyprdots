@@ -44,6 +44,9 @@ UUID=0a262941-e4c8-4c96-896c-b6cafff741e5   /mnt/king500   ext4   defaults,nofai
       $ docker run --name NOME -v /dir/host:/dir/guest -it IMAGE bash
       $ sudo docker start -ai NOME
 
-/etc/init.d/apache2 start && /etc/init.d/mariadb start
-apt install php php-pdo-mysql php-xml php-gd php-zip
+
+        sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+
+        /etc/init.d/apache2 start && /etc/init.d/mariadb start
+	apt install php php-pdo-mysql php-xml php-gd php-zip
 

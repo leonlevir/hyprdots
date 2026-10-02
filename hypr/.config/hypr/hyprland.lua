@@ -31,7 +31,7 @@ local terminal    = "kitty"
 local fileManager = "thunar"
 local menu        = "rofi -show drun"
 local browser     = "brave-origin"
-
+local task        = "kitty -- btop"
 -------------------
 ---- AUTOSTART ----
 -------------------
@@ -109,8 +109,8 @@ hl.config({
 },
 
     decoration = {
-        rounding       = 0,
-        rounding_power = 0,
+        rounding       = 5,
+        rounding_power = 5,
 
         -- Change transparency of focused and unfocused windows
         active_opacity   = 1.0,
@@ -269,6 +269,7 @@ hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("/home/leo/hyprdots/scripts/albionwid
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(task))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("webcord"))
 hl.bind(mainMod .. " + KP_Add", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))

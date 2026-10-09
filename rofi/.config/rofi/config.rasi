@@ -1,0 +1,5 @@
+configuration {
+  show-icons:         true;
+}
+
+@theme "/home/leo/.config/rofi/Arc-Dark.rasi"

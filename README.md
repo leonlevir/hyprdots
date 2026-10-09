@@ -1,0 +1,11 @@
+### CAVA WAYBAR BY JaKooLit
+
+### ZSH AGNOSTER
+
+
+### KITTY TERMINAL
+
+
+
+
+

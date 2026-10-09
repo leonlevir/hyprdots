@@ -1,0 +1,52 @@
+*/etc/fstab
+sudo mkdir -p /mnt/king500
+UUID=0a262941-e4c8-4c96-896c-b6cafff741e5   /mnt/king500   ext4   defaults,nofail   0   2
+
+---- MINECRAFT FORGE LIB ERROR (CachyOS)
+      $ sudo pacman -S zlib lib32-zlib
+
+
+:::::::::::::::::::::::::::::::::::::::::VIRT-MANAGER/QEMU::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+---- QCOW2 CREATE
+      $ qemu-img create -f qcow2 disk1.qcow2 30G
+
+
+---- RUN VM
+      $ qemu-system-x86_64 --enable-kvm -m 4G -smp 4 -name 'vmm' -boot d -hda disk1.qcow2 -cdrom ‘caminho iso’
+
+
+---- CREATE BRIDGE (OPTIONAL)
+      $ nmcli connection add type bridge ifname br0 stp no
+      $ nmcli connection add type bridge-slave ifname enp3s0 master br0
+      $ nmcli connection down Connection
+      $ nmcli connection up bridge-br0
+      $ nmcli connection up bridge-slave-enp3s0
+
+
+---- BRIDGE PERMISSION (NEEDED ON QEMU ONLY)
+      $ sudo nano /etc/qemu/bridge.conf
+      add line: allow br0
+      $ sudo chmod 644 /etc/qemu/bridge.conf
+
+---- BRIDGE PARAMETERS
+     -netdev bridge,id=mynet0,br=br0 -device virtio-net,netdev=mynet0
+
+
+::::::::::::::::::::::::::::DOCKER:::::::::::::::::::::::::::::::::::::
+
+      $ sudo groupadd docker
+      $ sudo usermod -aG docker $USER
+      $ newgrp docker
+
+
+      $ docker run --name NOME -v /dir/host:/dir/guest -it IMAGE bash
+      $ sudo docker start -ai NOME
+
+---- MYAAC UBUNTU 24.04 REQUIREMENTS
+      $ sudo apt install  php phpmyadmin php-mbstring php-zip php-gd php-json php-curl php-xml php-pdo-mysql
+
+---- START APACHE & MARIADB IN CONTAINER      
+      $ /etc/init.d/apache2 start && /etc/init.d/mariadb start
+

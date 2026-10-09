@@ -1,0 +1,91 @@
+* = CONFIG FILE LOCATION (FROM HOME)
+$ = COPY AND RUN COMMANDS
+> = AUTOSTART LINE (NOT NEEDED IF YOU WILL COPY HYPRLAND.LUA)
+! = HOTKEY EXAMPLE (NOT NEEDED IF YOU WILL COPY HYPRLAND.LUA)
+
+
+---- HYPRLAND FIRST TWEAKS (NOT NEEDED IF YWILL COPY HYPRLAND.LUA) *.config/hypr/hyprland.LUA 
+change keyboard input (if needded)
+KEYBINDS (if want)
+
+      $ sudo pacman -S git curl
+
+--------------------------------------------------------------------------------
+*/etc/pacman.conf --- colors tweak and multiple downloads (not needed on cachy)
+--------------------------------------------------------------------------------
+
+
+---- POLKIT
+      $ sudo pacman -S polkit-gnome gnome-keyring
+        > hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
+
+
+---- APP LAUNCHER      
+      $ sudo pacman -S hyprlauncher rofi-wayland
+         ! rofi -show drun
+	 ! hyprlauncher
+
+
+---- USER DIRECTORIES?
+      $ sudo pacman -S xdg-user-dirs
+      $ xdg-user-dirs-update
+
+
+---- ZSH and OhMyZSH (better than bash?)
+*zshrc
+      $ sudo pacman -S zsh
+      $ sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
+
+
+---- FILE EXPLORER
+      $ sudo pacman -S thunar tumbler ffmpegthumbnailer libopenraw poppler-glib gst-libav evince thunar-archive-plugin thunar-volman
+        /usr/bin/kitty %f  (thunar custom action to open in terminal works)
+
+
+---- AUTO MOUNT REMOVABLES?
+      $ sudo pacman -S udiskie gvfs gvfs-mtp gvfs-gphoto2 gvfs-afc gvfs-smb
+        > hl.exec_cmd("nm-applet")
+
+
+---- CLIPBOARD
+      $ sudo pacman -S cliphist
+        > hl.exec_cmd("wl-paste --type text --watch cliphist store # Stores only text data")
+        > hl.exec_cmd("wl-paste --type image --watch cliphist store # Stores only image data")
+          ! hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("cliphist list | hyprlauncher --dmenu | cliphist decode | wl-copy"))
+
+
+---- FONTS
+      $ sudo pacman -S noto-fonts noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-font-awesome
+
+
+---- HYPR ECOSYSTEM
+      $ sudo pacman -S hypridle hyprlock hyprpaper hyprshot dunst
+
+
+---- HYPR ENVS
+      $ sudo pacman -S nwg-look nwg-displays pavucontrol waybar network-manager-applet cava xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland
+
+
+---- THEME AND ICONS
+       https://github.com/daniruiz/flat-remix
+       https://github.com/daniruiz/flat-remix-gtk
+
+
+---- YAY
+      $ sudo pacman -S --needed git base-devel
+      $ git clone https://aur.archlinux.org/yay.git
+      $ cd yay
+      $ makepkg -si
+
+
+---- FROM YAY
+      $ curl -fsS https://dl.brave.com/install.sh | FLAVOR=origin sh
+      $ yay -S wallust-git webcord
+      $ yay -S btop-git
+
+
+
+
+
+
+

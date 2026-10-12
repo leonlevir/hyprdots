@@ -35,8 +35,11 @@ sudo pacman -S --noconfirm zip unzip file-roller 7zip ark
 # Instalando o Flatpak via Pacman
 sudo pacman -S --noconfirm flatpak
 
+# Virtualização
+#sudo pacman -S --noconfirm wine qemu-desktop libvirt virt-manager filezilla docker bridge-utils
 
-# Habilitando e Iniciando Serviços com systemctl
+
+# SERVICES
 #sudo systemctl enable bluetooth.service --now
 #sudo systemctl enable zerotier-one.service --now
 #sudo systemctl enable docker --now

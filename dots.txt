@@ -79,9 +79,7 @@ KEYBINDS (if want)
 
 
 ---- FROM YAY
-      $ curl -fsS https://dl.brave.com/install.sh | FLAVOR=origin sh
-      $ yay -S wallust-git webcord
-      $ yay -S btop-git
+      $ yay -S wallust-git webcord btop-git brave-origin-bin
 
 
 

@@ -13,6 +13,11 @@
 ### THUNAR
 <img width="1600" height="900" alt="2026-10-12-150538_hyprshot" src="https://github.com/user-attachments/assets/60fe48fc-a093-4f68-b4c4-ed85856dad45" />
 
+### DEMO
+https://github.com/user-attachments/assets/0e76a2e3-0353-46f5-93ac-cd90619eb30e
+
+
+
 
 
 

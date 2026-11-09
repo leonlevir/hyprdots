@@ -8,13 +8,16 @@
 <img width="1600" height="900" alt="2026-10-31-100900_hyprshot" src="https://github.com/user-attachments/assets/b514d665-a6b0-4770-9019-025e270c92c5" />
 
 ### ROFI LAUNCHER
-<img width="1600" height="900" alt="2026-10-31-102716_hyprshot" src="https://github.com/user-attachments/assets/11bc52fb-a2e2-4aa2-a268-d4f551175b2c" />
+<img width="1600" height="900" alt="2026-11-08-205659_hyprshot" src="https://github.com/user-attachments/assets/e55dfbd1-cea7-4ee4-8e5e-4f2e7ec7f8ed" />
 
 ### THUNAR
 <img width="1600" height="900" alt="2026-10-12-150538_hyprshot" src="https://github.com/user-attachments/assets/60fe48fc-a093-4f68-b4c4-ed85856dad45" />
 
-### DEMO
-https://github.com/user-attachments/assets/0e76a2e3-0353-46f5-93ac-cd90619eb30e
+### WALLUST BORDERS
+<img width="1600" height="900" alt="untitled-ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/b1e07238-b4ae-415b-ad51-9f37330ee3d4" />
+
+
+
 
 
 
